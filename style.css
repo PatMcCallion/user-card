@@ -1,0 +1,105 @@
+.container {
+    height: 400px;
+    width: 1000px;
+    min-width: 0;
+    max-width: auto;
+    border: 3px solid grey;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+
+.crossbar {
+    background-color: rgb(11, 132, 231);
+    width: inherit;
+    height: 150px;
+    position: fixed;
+    z-index: 0;
+}
+
+.subContent1 {
+    position: fixed;
+    z-index: 2;
+}
+
+.subContent2 {
+    height: 80px;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    margin: 235px 0 0 0;
+}
+
+.subContent3 {
+    position: fixed;
+    z-index: 2;
+}
+
+.link {
+    margin: 10px 0 0 30px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+img[src*=circle] {
+    width: 100px;
+    height: 100px;
+    border: 5px solid rgb(179, 179, 179);
+    position: inherit;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 2;
+    margin: 80px 0 0 30px;
+}
+
+img[src*=marker] {
+    width: 17px;
+    height: 20px;
+    padding: 0;
+    vertical-align: top;
+    margin: 3px 0 0 30px;
+}
+
+img[src*=gear] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+}
+
+h1 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    z-index: 2;
+    margin: 190px 0 0 30px;
+}
+
+h2 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    margin: -3px 0 0 10px;
+}
+
+h3 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin: 270px 0 0 30px;
+}
+
+a {
+    color: rgb(11, 132, 231);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
